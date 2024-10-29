@@ -26,11 +26,11 @@ DEVICE   = RZG2L
 DDR_TYPE = DDR4
 DDR_SIZE = 2GB_1PCS
 SWIZZLE  = T1BC
-else ifeq ("$(BOARD)", "RZG2L_SMARC_PMIC_1GB")
+else ifeq ("$(BOARD)", "RZG2L_LY_PMIC")
 #--------------------------------------
 # RZ/G2L Smarc PMIC Edition board DDR4 1GB
 #--------------------------------------
-FILENAME_ADD = _RZG2L_SMARC_PMIC
+FILENAME_ADD = _RZG2L_LY_PMIC
 DEVICE   = RZG2L
 DDR_TYPE = DDR4
 DDR_SIZE = 1GB_1PCS
